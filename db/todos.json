@@ -1,5 +1,4 @@
-{
-  "todos": [
+ [
     {
       "uid": "fdb2933c",
       "action": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -66,4 +65,4 @@
       "category": "work"
     }
   ]
-}
+ 
