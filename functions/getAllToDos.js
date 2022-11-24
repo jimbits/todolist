@@ -8,14 +8,14 @@ import fs from 'fs/promises'
 import todos from './db/todos.json' assert {type:"json"}
  
 export const handler = async function (event, context) {
- 
-      const filePath = path.join(__dirname, '/db/user.json')
-      console.log(filePath)
-    //   const temper = await fs.readFile(filePath, 'utf-8')
-    //   console.log(temper)
+  
+      const file =  await fs.readFile('./db/todos.json', 'utf-8')
+      console.log(file)
+   
+
     return{
         statusCode:200,
-        body: JSON.stringify({path:filePath})
+        body: file
     }
 };
 
